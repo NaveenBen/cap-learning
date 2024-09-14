@@ -13,7 +13,7 @@ exports.data = async function (req, res, next) {
         let db=await cds.connect.to("db");
         //let query = `SELECT * from dev.price_menu`;
         //let result=await db.run(query);
-        let result=await db.run(SELECT .from `price_menu`);
+        let result=await db.run(SELECT .from `foo`);
         res.send(result);
     }
     catch (err) {
