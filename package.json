@@ -1,0 +1,25 @@
+{
+  "name": "cap-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/cds": "^8.2.2",
+    "@cap-js/postgres": "^1.10.0"
+
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^8.2.1"
+  },
+  "cds":{
+    "requires":{
+      "db":"postgres"
+    }
+  }
+}
